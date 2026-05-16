@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+  font-family: "Quicksand", sans-serif;
+}
+:root{
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+p,h1,h2,h3,h4,h5,h6,a{
+  color: #163960;
+}
+i{
+  font-size: 44px;
+}
+.header h2{
+  color: #163960; 
+  font-size: 38px;
+  font-weight: 700;
+  text-align: center;
+}
+.header p{
+  color: #163960;
+  font-size: 28px;
+  font-weight: 500;
+}
+.textpages{
+  color: #163960;
+  font-size: 30px;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .header h2{
+    font-size: 28px;
+  }
+  .textpages p{
+    font-size: 20px; 
+    line-height: 1.6;
+  }
+}

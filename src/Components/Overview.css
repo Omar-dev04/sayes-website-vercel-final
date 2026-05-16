@@ -1,0 +1,31 @@
+.cardsdash {
+    --bs-card-border-width: 1px;
+    --bs-card-border-color: #506C9C;
+    --bs-card-border-radius: 20px;
+}
+.title {
+    color: #163960 !important;
+    font-size: 23px !important;
+    font-weight: 700 !important;
+    text-align: center;
+}
+.rate {
+    margin-bottom: 20vh;
+}
+.park {
+    width: 100%;
+}
+.parking-page-card {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .parking-page-card {
+        width: 75%;
+    }
+}
+@media (min-width: 992px) {
+    .park {
+        width: 95%;
+    }
+}

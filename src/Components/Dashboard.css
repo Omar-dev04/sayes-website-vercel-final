@@ -1,0 +1,9 @@
+.dashboard button{
+    color: #163960;
+    background-color: #DFB91B;
+    font-size: 25px;
+    font-weight: 600;
+}
+.dashboard button:hover{
+    background-color: #F0D848;
+}

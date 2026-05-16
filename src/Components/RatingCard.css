@@ -1,0 +1,39 @@
+p {
+    color: #506C9C;
+}
+h5,h2 {
+    color: #163960;
+}
+.stars-outer {
+    position: relative;
+    display: inline-block;
+    font-size: 60px;
+}
+.stars-outer::before {
+    content: "★★★★★";
+    color: #dcdcdc;
+}
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.stars-inner::before {
+    content: "★★★★★";
+    color: #DFB91B;
+}
+.rating {
+    padding-bottom: 190px;
+}
+@media (max-width: 576px) {
+    .stars-outer {
+        font-size: 40px;
+    }
+}
+@media (max-width: 992px) {
+    .stars-outer {
+        font-size: 45px;
+    }
+}

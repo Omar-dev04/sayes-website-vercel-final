@@ -1,0 +1,52 @@
+footer{
+    background-color: #163960;
+    min-height: 15vh;
+}
+.footer-logo {
+    display: flex;
+    align-items: start;  
+    gap: 15px;
+    font-size: 48px;
+    color: #F0D848;
+}
+.footer-logo img {
+    width: 70px;
+    height: auto;
+    padding-top: 30px;
+}
+.footer-logo .text {
+    padding-top: 20px;
+}
+.footer-logo .park {
+    color: white;
+}
+.nav-link1{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+footer li{
+    padding-top: 35px;
+}
+@media (max-width: 767px) {
+    footer{
+        padding: 20px ;
+    }
+    .footer-logo {
+        font-size: 35px;
+    }
+    .footer-logo .text {
+        font-size: 30px;
+    }
+    .nav-link1 {
+        font-size: 15px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    footer{
+        min-height: 25vh;
+    }
+    .footer {
+        margin-right: 50px;
+}}

@@ -1,0 +1,71 @@
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.custom-table th {
+    color: #163960;
+    padding: 10px;
+}
+.custom-table td {
+    color: #163960;
+    padding: 10px;
+    border: 1px solid #506C9C;
+}
+.entry-badge {
+    background-color: green !important;
+    color: white !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.exit-badge {
+    background-color: red !important;
+    color: white !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.pending-badge {
+    background-color: orange !important;
+    color: white !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.default-badge {
+    background-color: #0d6efd !important;
+    color: white !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.recent {
+    min-height: 60vh;
+}
+.entry-row {
+    background-color: rgba(0, 128, 0, 0.05);
+}
+.pending-row {
+    background-color: rgba(255, 165, 0, 0.05);
+}
+.default-row {
+    background-color: rgba(13, 110, 253, 0.05);
+}
+.btn-custom{
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #163960;
+    border-radius: 16px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #DFB91B;
+    border: 0;
+}
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom:hover{
+    color: #163960;
+    border-radius: 16px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #DFB91B;
+    border: 0;
+}

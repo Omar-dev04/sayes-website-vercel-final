@@ -1,0 +1,24 @@
+.vehicle {
+    --bs-card-border-width: 1px;
+    --bs-card-border-color: #506C9C;
+    --bs-card-border-radius: 20px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .vehicle {
+        width: 75%;
+    }
+}
+
+@media (min-width: 992px) {
+    .vehicle {
+        width: 40%;
+    }
+}
+
+.vehicle-title {
+    color: #163960 !important;
+    font-size: 25px !important;
+    font-weight: 700 !important;
+}

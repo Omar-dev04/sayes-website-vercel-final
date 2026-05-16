@@ -1,0 +1,11 @@
+.statscards h6{
+    color: #506C9C;
+}
+.statscards h4{
+    color: #163960;
+}
+.statscards .card{
+    --bs-card-border-width: 1px;
+    --bs-card-border-color: #506C9C;
+    --bs-card-border-radius: 20px;
+}

@@ -1,0 +1,92 @@
+.terms-content h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #163960;
+    padding-left: 22px;
+}
+.terms-content p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #506C9C;
+    padding-left: 22px;
+}
+.accordion-button{
+    color: #163960;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+.accordion-body p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #506C9C;
+}
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: #163960 !important;
+    box-shadow: none !important;
+}
+.accordion-item {
+    border: 1px solid #f2d75c !important;
+}
+.accordion-item + .accordion-item {
+    border-top: none;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+.accordion-item {
+    margin-bottom: 25px;
+    border: 1px solid #f2d75c !important;
+    overflow: hidden; 
+}
+
+/* ------------ Tablets (max-width: 992px) ------------ */
+@media (max-width: 992px) {
+    .terms-content h3 {
+        font-size: 26px;
+        padding-left: 10px;
+    }
+    .terms-content p {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    .accordion-button {
+        font-size: 26px;
+        padding: 15px 12px;
+    }
+    .accordion-body p {
+        font-size: 18px;
+    }
+    .accordion-item {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 576px) {
+    .terms-content{
+        padding: 0 10px ;
+    }
+    .terms-content h3 {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+    .terms-content p {
+        font-size: 15px;
+        padding-left: 25px;
+    }
+    .accordion-button {
+        font-size: 20px;
+    }
+    .accordion-body p {
+        font-size: 15px;
+    }
+    .accordion-item {
+        margin-bottom: 18px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+}
